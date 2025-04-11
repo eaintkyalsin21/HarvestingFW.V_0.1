@@ -17,7 +17,7 @@ namespace HarvestingFW.V_01
 	{
 		public static void SeleniumBrowsingAndParsing()
 		{
-			// Use Chrome browsing to scrape web data or download the page source when it can't be parsed using HTML or JSON
+			// Use Chrome browsing to scrape web data or download the page source when it can't be parsed using HTML or JSON //
 
 			// Essential NuGet Packages for Chrome browsing are -
 			// Selenium.WebDriver (Core Selenium package)
