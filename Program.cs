@@ -13,7 +13,7 @@ namespace HarvestingFW.V_01
         {
             //SeleniumWebScraping.SeleniumBrowsingAndParsing();
             ChromeDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("https://substack.com/api/v1/category/public/153/paid?page=20");
+            driver.Navigate().GoToUrl("");
 		}
     }
 }
