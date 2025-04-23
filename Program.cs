@@ -11,9 +11,7 @@ namespace HarvestingFW.V_01
     {
         static void Main(string[] args)
         {
-            //SeleniumWebScraping.SeleniumBrowsingAndParsing();
-            ChromeDriver driver = new ChromeDriver();
-            driver.Navigate().GoToUrl("");
-		}
+            WebBrowsingAndScraping.SeleniumBrowsingAndScraping();
+        }
     }
 }
