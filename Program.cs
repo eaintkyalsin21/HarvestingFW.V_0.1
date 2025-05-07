@@ -11,7 +11,11 @@ namespace HarvestingFW.V_01
     {
         static void Main(string[] args)
         {
-            WebBrowsingAndScraping.SeleniumBrowsingAndScraping();
-        }
+            //WebBrowsingAndScraping.SeleniumBrowsingAndScraping();
+
+            //DatabaseConnections.MSAccessConnection();
+            //DatabaseConnections.SQLiteConnection();
+            DatabaseConnections.MySQLConnection();
+		}
     }
 }
